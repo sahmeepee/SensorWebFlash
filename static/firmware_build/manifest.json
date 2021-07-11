@@ -1,19 +1,9 @@
 {
-  "name": "ESP Web Tools demo powered by ESPHome",
+  "name": "ESP Web Tools for sensor.community powered by ESPHome",
   "builds": [
     {
-      "chipFamily": "ESP32",
-      "improv": true,
-      "parts": [
-        { "path": "bootloader.bin", "offset": 4096 },
-        { "path": "partitions.bin", "offset": 32768 },
-        { "path": "ota.bin", "offset": 57344 },
-        { "path": "firmware.bin", "offset": 65536 }
-      ]
-    },
-    {
       "chipFamily": "ESP8266",
-      "parts": [{ "path": "esp8266.bin", "offset": 0 }]
+      "parts": [{ "path": "latest_en_DHT22.bin", "offset": 0 }]
     }
   ]
 }
